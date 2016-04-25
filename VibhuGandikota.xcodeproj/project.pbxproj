@@ -9,11 +9,58 @@
 /* Begin PBXBuildFile section */
 		D23AA2D11CCC11AB00B78CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AA2D01CCC11AB00B78CE8 /* AppDelegate.swift */; };
 		D23AA2D31CCC11AB00B78CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AA2D21CCC11AB00B78CE8 /* ViewController.swift */; };
-		D23AA2D61CCC11AB00B78CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AA2D41CCC11AB00B78CE8 /* Main.storyboard */; };
 		D23AA2D81CCC11AB00B78CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AA2D71CCC11AB00B78CE8 /* Assets.xcassets */; };
 		D23AA2DB1CCC11AB00B78CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AA2D91CCC11AB00B78CE8 /* LaunchScreen.storyboard */; };
 		D23AA2E61CCC11AB00B78CE8 /* VibhuGandikotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AA2E51CCC11AB00B78CE8 /* VibhuGandikotaTests.swift */; };
 		D23AA2F11CCC11AB00B78CE8 /* VibhuGandikotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AA2F01CCC11AB00B78CE8 /* VibhuGandikotaUITests.swift */; };
+		D23AA3081CCC123100B78CE8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3001CCC123100B78CE8 /* Home.png */; };
+		D23AA3091CCC123100B78CE8 /* About Me.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3011CCC123100B78CE8 /* About Me.png */; };
+		D23AA30B1CCC123100B78CE8 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3031CCC123100B78CE8 /* Music.png */; };
+		D23AA30C1CCC123100B78CE8 /* My Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3041CCC123100B78CE8 /* My Apps.png */; };
+		D23AA30D1CCC123100B78CE8 /* Academics.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3051CCC123100B78CE8 /* Academics.png */; };
+		D23AA30E1CCC123100B78CE8 /* Interests.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3061CCC123100B78CE8 /* Interests.png */; };
+		D23AA30F1CCC123100B78CE8 /* hbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3071CCC123100B78CE8 /* hbutton.png */; };
+		D23AA3111CCC124600B78CE8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AA3101CCC124600B78CE8 /* HomePage.swift */; };
+		D23AA3131CCC125400B78CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AA3121CCC125400B78CE8 /* Main.storyboard */; };
+		D25101DF1CCD6D8000FF08B1 /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101DE1CCD6D8000FF08B1 /* ImageSlideshow.framework */; };
+		D25101E11CCD6E0C00FF08B1 /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101E01CCD6E0C00FF08B1 /* ImageSlideshow.framework */; };
+		D25101E51CCD72C400FF08B1 /* Programming.png in Resources */ = {isa = PBXBuildFile; fileRef = D25101E41CCD72C400FF08B1 /* Programming.png */; };
+		D25101E91CCD7C0200FF08B1 /* 018.png in Resources */ = {isa = PBXBuildFile; fileRef = D25101E81CCD7C0200FF08B1 /* 018.png */; };
+		D25101EC1CCD7E2500FF08B1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101EA1CCD7E2500FF08B1 /* CoreVideo.framework */; };
+		D25101ED1CCD7E2500FF08B1 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101EB1CCD7E2500FF08B1 /* VideoToolbox.framework */; };
+		D25101F21CCD7E3400FF08B1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101EE1CCD7E3400FF08B1 /* CoreMedia.framework */; };
+		D25101F31CCD7E3400FF08B1 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101EF1CCD7E3400FF08B1 /* MediaAccessibility.framework */; };
+		D25101F41CCD7E3400FF08B1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101F01CCD7E3400FF08B1 /* MediaPlayer.framework */; };
+		D25101F51CCD7E3400FF08B1 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25101F11CCD7E3400FF08B1 /* MediaToolbox.framework */; };
+		D25101FC1CCD865F00FF08B1 /* kidsrubyimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D25101FB1CCD865F00FF08B1 /* kidsrubyimg.png */; };
+		D25102001CCD9BB100FF08B1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25101FF1CCD9BB100FF08B1 /* TableViewCell.swift */; };
+		D2AF97BD1CCC13D100D799DD /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97BC1CCC13D100D799DD /* ProgrammingController.swift */; };
+		D2AF97C11CCC171700D799DD /* pens.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AF97C01CCC171700D799DD /* pens.png */; };
+		D2AF97C31CCC321900D799DD /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97C21CCC321900D799DD /* MusicViewController.swift */; };
+		D2AF97C51CCC322300D799DD /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97C41CCC322300D799DD /* AcademicsViewController.swift */; };
+		D2AF97C71CCC324600D799DD /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97C61CCC324600D799DD /* InterestsViewController.swift */; };
+		D2AF97C91CCC325000D799DD /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97C81CCC325000D799DD /* AboutMeViewController.swift */; };
+		D2AF97CB1CCC325700D799DD /* MyAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF97CA1CCC325700D799DD /* MyAppsViewController.swift */; };
+		D2E5C98D1CCDA6F600A20FD7 /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C98C1CCDA6F600A20FD7 /* ruby.png */; };
+		D2E5C9911CCDA73E00A20FD7 /* javalang.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9901CCDA73E00A20FD7 /* javalang.png */; };
+		D2E5C9931CCDA78200A20FD7 /* swiftobjc.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9921CCDA78200A20FD7 /* swiftobjc.png */; };
+		D2E5C9951CCDA7FD00A20FD7 /* scratchlang.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9941CCDA7FD00A20FD7 /* scratchlang.png */; };
+		D2E5C9991CCDB01100A20FD7 /* rubykids.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9981CCDB01100A20FD7 /* rubykids.png */; };
+		D2E5C99B1CCE528F00A20FD7 /* schoolinside.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C99A1CCE528F00A20FD7 /* schoolinside.png */; };
+		D2E5C99D1CCE52A600A20FD7 /* tgms.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C99C1CCE52A600A20FD7 /* tgms.png */; };
+		D2E5C99F1CCE592D00A20FD7 /* subjects.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C99E1CCE592D00A20FD7 /* subjects.png */; };
+		D2E5C9A11CCE621600A20FD7 /* MySchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E5C9A01CCE621600A20FD7 /* MySchoolViewController.swift */; };
+		D2E5C9A31CCE622100A20FD7 /* FavSubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E5C9A21CCE622100A20FD7 /* FavSubjectsViewController.swift */; };
+		D2E5C9A51CCE652400A20FD7 /* myschoolimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9A41CCE652400A20FD7 /* myschoolimg.png */; };
+		D2E5C9A71CCE71A800A20FD7 /* math+sci.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9A61CCE71A800A20FD7 /* math+sci.png */; };
+		D2E5C9A91CCE71E000A20FD7 /* certificatepic.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9A81CCE71E000A20FD7 /* certificatepic.png */; };
+		D2E5C9AB1CCE722400A20FD7 /* explorascreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9AA1CCE722400A20FD7 /* explorascreenshot.png */; };
+		D2E5C9AD1CCE9FC600A20FD7 /* reading.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9AC1CCE9FC600A20FD7 /* reading.png */; };
+		D2E5C9AF1CCE9FCD00A20FD7 /* bball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9AE1CCE9FCD00A20FD7 /* bball.png */; };
+		D2E5C9B11CCE9FD500A20FD7 /* fball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B01CCE9FD500A20FD7 /* fball.png */; };
+		D2E5C9B31CCEA39400A20FD7 /* Physics.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B21CCEA39400A20FD7 /* Physics.png */; };
+		D2E5C9B51CCEB90100A20FD7 /* 1-f.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B41CCEB90100A20FD7 /* 1-f.png */; };
+		F699CCF025427BBD15968CDB /* Pods_VibhuGandikota.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0708F6A0ACCD6CAAFBA5B2DE /* Pods_VibhuGandikota.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +81,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0708F6A0ACCD6CAAFBA5B2DE /* Pods_VibhuGandikota.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibhuGandikota.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F68409BCA9A5A21B6CD2F2 /* Pods-VibhuGandikota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibhuGandikota.release.xcconfig"; path = "Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota.release.xcconfig"; sourceTree = "<group>"; };
 		D23AA2CD1CCC11AB00B78CE8 /* VibhuGandikota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibhuGandikota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AA2D01CCC11AB00B78CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23AA2D21CCC11AB00B78CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D23AA2D51CCC11AB00B78CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D23AA2D71CCC11AB00B78CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23AA2DA1CCC11AB00B78CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23AA2DC1CCC11AB00B78CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +95,57 @@
 		D23AA2EC1CCC11AB00B78CE8 /* VibhuGandikotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AA2F01CCC11AB00B78CE8 /* VibhuGandikotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaUITests.swift; sourceTree = "<group>"; };
 		D23AA2F21CCC11AB00B78CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23AA3001CCC123100B78CE8 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		D23AA3011CCC123100B78CE8 /* About Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About Me.png"; sourceTree = "<group>"; };
+		D23AA3031CCC123100B78CE8 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		D23AA3041CCC123100B78CE8 /* My Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My Apps.png"; sourceTree = "<group>"; };
+		D23AA3051CCC123100B78CE8 /* Academics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Academics.png; sourceTree = "<group>"; };
+		D23AA3061CCC123100B78CE8 /* Interests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interests.png; sourceTree = "<group>"; };
+		D23AA3071CCC123100B78CE8 /* hbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbutton.png; sourceTree = "<group>"; };
+		D23AA3101CCC124600B78CE8 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D23AA3121CCC125400B78CE8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D25101DA1CCD6B3E00FF08B1 /* Auk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Auk.framework; path = "../../../Library/Developer/Xcode/DerivedData/VibhuGandikota-eapijgsfhvngdoaujvgocvodelyi/Build/Products/Debug-iphonesimulator/Auk.framework"; sourceTree = "<group>"; };
+		D25101DB1CCD6B3E00FF08B1 /* moa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = moa.framework; path = "../../../Library/Developer/Xcode/DerivedData/VibhuGandikota-eapijgsfhvngdoaujvgocvodelyi/Build/Products/Debug-iphonesimulator/moa.framework"; sourceTree = "<group>"; };
+		D25101DE1CCD6D8000FF08B1 /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageSlideshow.framework; path = "../../../Library/Developer/Xcode/DerivedData/VibhuGandikota-eapijgsfhvngdoaujvgocvodelyi/Build/Products/Debug-iphonesimulator/ImageSlideshow.framework"; sourceTree = "<group>"; };
+		D25101E01CCD6E0C00FF08B1 /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageSlideshow.framework; sourceTree = "<group>"; };
+		D25101E41CCD72C400FF08B1 /* Programming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Programming.png; sourceTree = "<group>"; };
+		D25101E81CCD7C0200FF08B1 /* 018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 018.png; sourceTree = "<group>"; };
+		D25101EA1CCD7E2500FF08B1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D25101EB1CCD7E2500FF08B1 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		D25101EE1CCD7E3400FF08B1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D25101EF1CCD7E3400FF08B1 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		D25101F01CCD7E3400FF08B1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D25101F11CCD7E3400FF08B1 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		D25101F61CCD828C00FF08B1 /* scratchProgrammingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchProgrammingImage.png; sourceTree = "<group>"; };
+		D25101FB1CCD865F00FF08B1 /* kidsrubyimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidsrubyimg.png; sourceTree = "<group>"; };
+		D25101FF1CCD9BB100FF08B1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D2AF97BC1CCC13D100D799DD /* ProgrammingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
+		D2AF97C01CCC171700D799DD /* pens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pens.png; sourceTree = "<group>"; };
+		D2AF97C21CCC321900D799DD /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		D2AF97C41CCC322300D799DD /* AcademicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
+		D2AF97C61CCC324600D799DD /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		D2AF97C81CCC325000D799DD /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		D2AF97CA1CCC325700D799DD /* MyAppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppsViewController.swift; sourceTree = "<group>"; };
+		D2E5C98C1CCDA6F600A20FD7 /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
+		D2E5C9901CCDA73E00A20FD7 /* javalang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javalang.png; sourceTree = "<group>"; };
+		D2E5C9921CCDA78200A20FD7 /* swiftobjc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftobjc.png; sourceTree = "<group>"; };
+		D2E5C9941CCDA7FD00A20FD7 /* scratchlang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchlang.png; sourceTree = "<group>"; };
+		D2E5C9981CCDB01100A20FD7 /* rubykids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubykids.png; sourceTree = "<group>"; };
+		D2E5C99A1CCE528F00A20FD7 /* schoolinside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schoolinside.png; sourceTree = "<group>"; };
+		D2E5C99C1CCE52A600A20FD7 /* tgms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tgms.png; sourceTree = "<group>"; };
+		D2E5C99E1CCE592D00A20FD7 /* subjects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subjects.png; sourceTree = "<group>"; };
+		D2E5C9A01CCE621600A20FD7 /* MySchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySchoolViewController.swift; sourceTree = "<group>"; };
+		D2E5C9A21CCE622100A20FD7 /* FavSubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavSubjectsViewController.swift; sourceTree = "<group>"; };
+		D2E5C9A41CCE652400A20FD7 /* myschoolimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myschoolimg.png; sourceTree = "<group>"; };
+		D2E5C9A61CCE71A800A20FD7 /* math+sci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "math+sci.png"; sourceTree = "<group>"; };
+		D2E5C9A81CCE71E000A20FD7 /* certificatepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = certificatepic.png; sourceTree = "<group>"; };
+		D2E5C9AA1CCE722400A20FD7 /* explorascreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explorascreenshot.png; sourceTree = "<group>"; };
+		D2E5C9AC1CCE9FC600A20FD7 /* reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reading.png; sourceTree = "<group>"; };
+		D2E5C9AE1CCE9FCD00A20FD7 /* bball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bball.png; sourceTree = "<group>"; };
+		D2E5C9B01CCE9FD500A20FD7 /* fball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fball.png; sourceTree = "<group>"; };
+		D2E5C9B21CCEA39400A20FD7 /* Physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Physics.png; sourceTree = "<group>"; };
+		D2E5C9B41CCEB90100A20FD7 /* 1-f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-f.png"; sourceTree = "<group>"; };
+		D781DDA583BBBAC9603FD410 /* Pods-VibhuGandikota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibhuGandikota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +153,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25101F21CCD7E3400FF08B1 /* CoreMedia.framework in Frameworks */,
+				D25101F31CCD7E3400FF08B1 /* MediaAccessibility.framework in Frameworks */,
+				D25101F41CCD7E3400FF08B1 /* MediaPlayer.framework in Frameworks */,
+				D25101F51CCD7E3400FF08B1 /* MediaToolbox.framework in Frameworks */,
+				D25101EC1CCD7E2500FF08B1 /* CoreVideo.framework in Frameworks */,
+				D25101ED1CCD7E2500FF08B1 /* VideoToolbox.framework in Frameworks */,
+				D25101DF1CCD6D8000FF08B1 /* ImageSlideshow.framework in Frameworks */,
+				F699CCF025427BBD15968CDB /* Pods_VibhuGandikota.framework in Frameworks */,
+				D25101E11CCD6E0C00FF08B1 /* ImageSlideshow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +182,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31BBB56996453C610E6E466D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D781DDA583BBBAC9603FD410 /* Pods-VibhuGandikota.debug.xcconfig */,
+				53F68409BCA9A5A21B6CD2F2 /* Pods-VibhuGandikota.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE111178D9F1FEB3A6D47418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25101EE1CCD7E3400FF08B1 /* CoreMedia.framework */,
+				D25101EF1CCD7E3400FF08B1 /* MediaAccessibility.framework */,
+				D25101F01CCD7E3400FF08B1 /* MediaPlayer.framework */,
+				D25101F11CCD7E3400FF08B1 /* MediaToolbox.framework */,
+				D25101EA1CCD7E2500FF08B1 /* CoreVideo.framework */,
+				D25101EB1CCD7E2500FF08B1 /* VideoToolbox.framework */,
+				D25101DE1CCD6D8000FF08B1 /* ImageSlideshow.framework */,
+				D25101DA1CCD6B3E00FF08B1 /* Auk.framework */,
+				D25101DB1CCD6B3E00FF08B1 /* moa.framework */,
+				0708F6A0ACCD6CAAFBA5B2DE /* Pods_VibhuGandikota.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D23AA2C41CCC11AB00B78CE8 = {
 			isa = PBXGroup;
 			children = (
+				D25101E01CCD6E0C00FF08B1 /* ImageSlideshow.framework */,
 				D23AA2CF1CCC11AB00B78CE8 /* VibhuGandikota */,
 				D23AA2E41CCC11AB00B78CE8 /* VibhuGandikotaTests */,
 				D23AA2EF1CCC11AB00B78CE8 /* VibhuGandikotaUITests */,
 				D23AA2CE1CCC11AB00B78CE8 /* Products */,
+				31BBB56996453C610E6E466D /* Pods */,
+				CE111178D9F1FEB3A6D47418 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +236,47 @@
 			children = (
 				D23AA2D01CCC11AB00B78CE8 /* AppDelegate.swift */,
 				D23AA2D21CCC11AB00B78CE8 /* ViewController.swift */,
-				D23AA2D41CCC11AB00B78CE8 /* Main.storyboard */,
+				D23AA3101CCC124600B78CE8 /* HomePage.swift */,
+				D2AF97BC1CCC13D100D799DD /* ProgrammingController.swift */,
+				D25101FF1CCD9BB100FF08B1 /* TableViewCell.swift */,
+				D23AA3121CCC125400B78CE8 /* Main.storyboard */,
+				D2E5C9A01CCE621600A20FD7 /* MySchoolViewController.swift */,
+				D2E5C9A21CCE622100A20FD7 /* FavSubjectsViewController.swift */,
+				D2AF97C21CCC321900D799DD /* MusicViewController.swift */,
+				D2AF97C41CCC322300D799DD /* AcademicsViewController.swift */,
+				D2AF97C61CCC324600D799DD /* InterestsViewController.swift */,
+				D2AF97C81CCC325000D799DD /* AboutMeViewController.swift */,
+				D2AF97CA1CCC325700D799DD /* MyAppsViewController.swift */,
 				D23AA2D71CCC11AB00B78CE8 /* Assets.xcassets */,
+				D23AA3001CCC123100B78CE8 /* Home.png */,
+				D2E5C9A41CCE652400A20FD7 /* myschoolimg.png */,
+				D2E5C9B41CCEB90100A20FD7 /* 1-f.png */,
+				D2E5C9A61CCE71A800A20FD7 /* math+sci.png */,
+				D2E5C9AE1CCE9FCD00A20FD7 /* bball.png */,
+				D2E5C9B21CCEA39400A20FD7 /* Physics.png */,
+				D2E5C9B01CCE9FD500A20FD7 /* fball.png */,
+				D23AA3011CCC123100B78CE8 /* About Me.png */,
+				D2E5C9AC1CCE9FC600A20FD7 /* reading.png */,
+				D2E5C9AA1CCE722400A20FD7 /* explorascreenshot.png */,
+				D2E5C9A81CCE71E000A20FD7 /* certificatepic.png */,
+				D2E5C99A1CCE528F00A20FD7 /* schoolinside.png */,
+				D2AF97C01CCC171700D799DD /* pens.png */,
+				D2E5C99E1CCE592D00A20FD7 /* subjects.png */,
+				D2E5C9981CCDB01100A20FD7 /* rubykids.png */,
+				D2E5C9941CCDA7FD00A20FD7 /* scratchlang.png */,
+				D2E5C99C1CCE52A600A20FD7 /* tgms.png */,
+				D25101FB1CCD865F00FF08B1 /* kidsrubyimg.png */,
+				D2E5C98C1CCDA6F600A20FD7 /* ruby.png */,
+				D2E5C9901CCDA73E00A20FD7 /* javalang.png */,
+				D2E5C9921CCDA78200A20FD7 /* swiftobjc.png */,
+				D25101E81CCD7C0200FF08B1 /* 018.png */,
+				D23AA3031CCC123100B78CE8 /* Music.png */,
+				D25101F61CCD828C00FF08B1 /* scratchProgrammingImage.png */,
+				D25101E41CCD72C400FF08B1 /* Programming.png */,
+				D23AA3041CCC123100B78CE8 /* My Apps.png */,
+				D23AA3051CCC123100B78CE8 /* Academics.png */,
+				D23AA3061CCC123100B78CE8 /* Interests.png */,
+				D23AA3071CCC123100B78CE8 /* hbutton.png */,
 				D23AA2D91CCC11AB00B78CE8 /* LaunchScreen.storyboard */,
 				D23AA2DC1CCC11AB00B78CE8 /* Info.plist */,
 			);
@@ -132,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D23AA2F51CCC11AB00B78CE8 /* Build configuration list for PBXNativeTarget "VibhuGandikota" */;
 			buildPhases = (
+				D01D347EC7EE2F4B188F2F82 /* Check Pods Manifest.lock */,
 				D23AA2C91CCC11AB00B78CE8 /* Sources */,
 				D23AA2CA1CCC11AB00B78CE8 /* Frameworks */,
 				D23AA2CB1CCC11AB00B78CE8 /* Resources */,
+				5AE9EB3E667905230AACA6DA /* Embed Pods Frameworks */,
+				B256A014DEA0EE655A05F675 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +372,7 @@
 				TargetAttributes = {
 					D23AA2CC1CCC11AB00B78CE8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Y4V9E48372;
 					};
 					D23AA2E01CCC11AB00B78CE8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +409,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E5C98D1CCDA6F600A20FD7 /* ruby.png in Resources */,
+				D23AA30C1CCC123100B78CE8 /* My Apps.png in Resources */,
+				D2E5C9951CCDA7FD00A20FD7 /* scratchlang.png in Resources */,
+				D23AA3081CCC123100B78CE8 /* Home.png in Resources */,
+				D25101E51CCD72C400FF08B1 /* Programming.png in Resources */,
+				D2E5C9931CCDA78200A20FD7 /* swiftobjc.png in Resources */,
+				D2E5C9A51CCE652400A20FD7 /* myschoolimg.png in Resources */,
+				D2E5C9B31CCEA39400A20FD7 /* Physics.png in Resources */,
+				D2AF97C11CCC171700D799DD /* pens.png in Resources */,
+				D23AA30D1CCC123100B78CE8 /* Academics.png in Resources */,
+				D2E5C9911CCDA73E00A20FD7 /* javalang.png in Resources */,
+				D2E5C9AD1CCE9FC600A20FD7 /* reading.png in Resources */,
+				D2E5C9B11CCE9FD500A20FD7 /* fball.png in Resources */,
+				D25101E91CCD7C0200FF08B1 /* 018.png in Resources */,
+				D23AA30E1CCC123100B78CE8 /* Interests.png in Resources */,
+				D2E5C99B1CCE528F00A20FD7 /* schoolinside.png in Resources */,
+				D23AA30F1CCC123100B78CE8 /* hbutton.png in Resources */,
+				D23AA3131CCC125400B78CE8 /* Main.storyboard in Resources */,
 				D23AA2DB1CCC11AB00B78CE8 /* LaunchScreen.storyboard in Resources */,
+				D25101FC1CCD865F00FF08B1 /* kidsrubyimg.png in Resources */,
 				D23AA2D81CCC11AB00B78CE8 /* Assets.xcassets in Resources */,
-				D23AA2D61CCC11AB00B78CE8 /* Main.storyboard in Resources */,
+				D2E5C9991CCDB01100A20FD7 /* rubykids.png in Resources */,
+				D2E5C99F1CCE592D00A20FD7 /* subjects.png in Resources */,
+				D2E5C99D1CCE52A600A20FD7 /* tgms.png in Resources */,
+				D2E5C9AB1CCE722400A20FD7 /* explorascreenshot.png in Resources */,
+				D23AA30B1CCC123100B78CE8 /* Music.png in Resources */,
+				D23AA3091CCC123100B78CE8 /* About Me.png in Resources */,
+				D2E5C9AF1CCE9FCD00A20FD7 /* bball.png in Resources */,
+				D2E5C9A91CCE71E000A20FD7 /* certificatepic.png in Resources */,
+				D2E5C9A71CCE71A800A20FD7 /* math+sci.png in Resources */,
+				D2E5C9B51CCEB90100A20FD7 /* 1-f.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +459,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AE9EB3E667905230AACA6DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B256A014DEA0EE655A05F675 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01D347EC7EE2F4B188F2F82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D23AA2C91CCC11AB00B78CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D23AA2D31CCC11AB00B78CE8 /* ViewController.swift in Sources */,
+				D2AF97C31CCC321900D799DD /* MusicViewController.swift in Sources */,
+				D2AF97C91CCC325000D799DD /* AboutMeViewController.swift in Sources */,
+				D2AF97BD1CCC13D100D799DD /* ProgrammingController.swift in Sources */,
+				D23AA3111CCC124600B78CE8 /* HomePage.swift in Sources */,
+				D2E5C9A31CCE622100A20FD7 /* FavSubjectsViewController.swift in Sources */,
+				D25102001CCD9BB100FF08B1 /* TableViewCell.swift in Sources */,
+				D2E5C9A11CCE621600A20FD7 /* MySchoolViewController.swift in Sources */,
 				D23AA2D11CCC11AB00B78CE8 /* AppDelegate.swift in Sources */,
+				D2AF97CB1CCC325700D799DD /* MyAppsViewController.swift in Sources */,
+				D2AF97C51CCC322300D799DD /* AcademicsViewController.swift in Sources */,
+				D2AF97C71CCC324600D799DD /* InterestsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +559,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D23AA2D41CCC11AB00B78CE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D23AA2D51CCC11AB00B78CE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D23AA2D91CCC11AB00B78CE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -399,23 +657,41 @@
 		};
 		D23AA2F61CCC11AB00B78CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D781DDA583BBBAC9603FD410 /* Pods-VibhuGandikota.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		D23AA2F71CCC11AB00B78CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F68409BCA9A5A21B6CD2F2 /* Pods-VibhuGandikota.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +760,7 @@
 				D23AA2F71CCC11AB00B78CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23AA2F81CCC11AB00B78CE8 /* Build configuration list for PBXNativeTarget "VibhuGandikotaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +769,7 @@
 				D23AA2FA1CCC11AB00B78CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23AA2FB1CCC11AB00B78CE8 /* Build configuration list for PBXNativeTarget "VibhuGandikotaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +778,7 @@
 				D23AA2FD1CCC11AB00B78CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

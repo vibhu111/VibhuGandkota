@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="HomePage" modalTransitionStyle="crossDissolve" id="6bQ-BW-h8e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="642"/>
+        </scene>
+        <!--Home Page-->
+        <scene sceneID="sDe-kX-PKK">
+            <objects>
+                <viewController id="HTi-5f-F2z" customClass="HomePage" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qaN-2f-u8e"/>
+                        <viewControllerLayoutGuide type="bottom" id="99Z-dv-KPP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="40o-sx-i8M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="BackToStart" modalTransitionStyle="crossDissolve" id="vET-41-iIv"/>
+                        <segue destination="WrN-8e-5L3" kind="modal" identifier="ProgrammingSegue" modalTransitionStyle="crossDissolve" id="BOv-Ds-jFB"/>
+                        <segue destination="w6v-fr-ojI" kind="modal" identifier="MusicSegue" modalTransitionStyle="crossDissolve" id="bcs-Ur-RRh"/>
+                        <segue destination="7Lx-kV-oGY" kind="modal" identifier="AcademicsSegue" modalTransitionStyle="crossDissolve" id="G64-Ou-nyW"/>
+                        <segue destination="hdU-2g-ZpR" kind="modal" identifier="InterestsSegue" modalTransitionStyle="crossDissolve" id="s7M-at-s9k"/>
+                        <segue destination="AR5-F9-CMB" kind="modal" identifier="AboutMeSegue" modalTransitionStyle="crossDissolve" id="54k-dT-ScB"/>
+                        <segue destination="dQv-8T-hD9" kind="modal" identifier="MyAppsSegue" modalTransitionStyle="crossDissolve" id="o7G-yO-SJG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgg-bq-ngr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212.26666666666665" y="680.65333333333331"/>
+        </scene>
+        <!--Fav Subjects View Controller-->
+        <scene sceneID="N2l-op-RN9">
+            <objects>
+                <viewController id="mOa-DH-QmA" customClass="FavSubjectsViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cXq-JS-0Gb"/>
+                        <viewControllerLayoutGuide type="bottom" id="9XZ-ze-qhX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aye-6b-hzH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="7Lx-kV-oGY" kind="modal" identifier="backToAcademics1" id="UUw-W3-BjH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VFy-eH-tkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="-1198"/>
+        </scene>
+        <!--My School View Controller-->
+        <scene sceneID="iq5-OK-Vpd">
+            <objects>
+                <viewController id="dTg-Xc-lUt" customClass="MySchoolViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oQ4-Tw-hSR"/>
+                        <viewControllerLayoutGuide type="bottom" id="bUj-5W-ix1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zZN-Ic-h9g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="7Lx-kV-oGY" kind="modal" identifier="backToAcademics2" id="W9i-DA-zaf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aa3-Qe-5gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="-1191"/>
+        </scene>
+        <!--Academics View Controller-->
+        <scene sceneID="Wse-3g-gwY">
+            <objects>
+                <viewController id="7Lx-kV-oGY" customClass="AcademicsViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fub-AT-qLV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iku-Y3-esf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7E2-hR-klG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeA" modalTransitionStyle="crossDissolve" id="Qjn-UN-tck"/>
+                        <segue destination="dTg-Xc-lUt" kind="modal" identifier="MySchoolSegue" id="qEj-Ka-66c"/>
+                        <segue destination="mOa-DH-QmA" kind="modal" identifier="FavSubjectsSegue" id="Tbf-Pd-as2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ph-H7-dco" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="-380"/>
+        </scene>
+        <!--Music View Controller-->
+        <scene sceneID="9LH-uy-Bvr">
+            <objects>
+                <viewController id="w6v-fr-ojI" customClass="MusicViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fz4-Yp-B3G"/>
+                        <viewControllerLayoutGuide type="bottom" id="MUq-Yd-WUa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CI2-hW-8cE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeM" modalTransitionStyle="crossDissolve" id="gex-s4-moT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RAi-ac-GUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="-415"/>
+        </scene>
+        <!--Interests View Controller-->
+        <scene sceneID="PZd-01-gMU">
+            <objects>
+                <viewController id="hdU-2g-ZpR" customClass="InterestsViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qYw-Se-fh1"/>
+                        <viewControllerLayoutGuide type="bottom" id="VzG-xf-SAn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JIF-Sv-Cvf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeI" modalTransitionStyle="crossDissolve" id="7hv-iY-9w8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4c0-R1-Nja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1366" y="-455"/>
+        </scene>
+        <!--About Me View Controller-->
+        <scene sceneID="B7N-5z-Rci">
+            <objects>
+                <viewController id="AR5-F9-CMB" customClass="AboutMeViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QSN-hg-GMZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="CZM-Qv-l9a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gxp-iE-HcH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeAA" modalTransitionStyle="crossDissolve" id="CaE-5t-mAi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fcz-23-Dl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1785" y="-422"/>
+        </scene>
+        <!--My Apps View Controller-->
+        <scene sceneID="52L-zt-5yc">
+            <objects>
+                <viewController id="dQv-8T-hD9" customClass="MyAppsViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RkA-hq-enh"/>
+                        <viewControllerLayoutGuide type="bottom" id="OLx-vy-cYY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0eb-hT-f6M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeMM" modalTransitionStyle="crossDissolve" id="74I-vh-oEH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1k6-dC-EbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2277" y="-450"/>
+        </scene>
+        <!--Programming Controller-->
+        <scene sceneID="tH6-wv-dBq">
+            <objects>
+                <viewController id="WrN-8e-5L3" customClass="ProgrammingController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ckv-eQ-YOX"/>
+                        <viewControllerLayoutGuide type="bottom" id="lax-Uh-u6p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ose-LW-uwp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="199" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Iy-1V-Nq4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="250" id="53b-Z2-UZh" customClass="TableViewCell" customModule="VibhuGandikota" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="53b-Z2-UZh" id="PsA-1u-i7M">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfU-NZ-zKy">
+                                                    <rect key="frame" x="0.0" y="157" width="320" height="109"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="109" id="tTY-ZV-YuS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CWA-Kx-SNI">
+                                                    <rect key="frame" x="0.0" y="-33" width="320" height="192"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gfU-NZ-zKy" secondAttribute="trailing" id="1R7-Cr-mMW"/>
+                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="trailing" secondItem="gfU-NZ-zKy" secondAttribute="trailing" id="IW3-Zb-Cy7"/>
+                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="leading" secondItem="gfU-NZ-zKy" secondAttribute="leading" id="KZX-3U-lzr"/>
+                                                <constraint firstItem="gfU-NZ-zKy" firstAttribute="leading" secondItem="PsA-1u-i7M" secondAttribute="leading" id="WpH-wv-Ox5"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CWA-Kx-SNI" secondAttribute="bottom" constant="82.5" id="bhU-pK-ahL"/>
+                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="top" secondItem="PsA-1u-i7M" secondAttribute="topMargin" constant="-41" id="qQk-YG-Mni"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gfU-NZ-zKy" secondAttribute="bottom" constant="-24.5" id="tsm-3h-Ntd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="TextView" destination="gfU-NZ-zKy" id="6to-Du-Sad"/>
+                                            <outlet property="imageViewW" destination="CWA-Kx-SNI" id="jsj-C9-4Fv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ose-LW-uwp" id="bGX-zo-gj7"/>
+                                    <outlet property="delegate" destination="ose-LW-uwp" id="BhF-dw-ew6"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Iy-1V-Nq4" firstAttribute="top" secondItem="ose-LW-uwp" secondAttribute="top" id="FjC-Q5-06b"/>
+                            <constraint firstItem="lax-Uh-u6p" firstAttribute="top" secondItem="7Iy-1V-Nq4" secondAttribute="bottom" constant="44" id="qVX-Xl-xJl"/>
+                            <constraint firstItem="7Iy-1V-Nq4" firstAttribute="leading" secondItem="ose-LW-uwp" secondAttribute="leading" id="tTV-ok-Oma"/>
+                            <constraint firstAttribute="trailing" secondItem="7Iy-1V-Nq4" secondAttribute="trailing" id="un3-eh-GRr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="7Iy-1V-Nq4" id="p5H-H5-wXF"/>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeP" modalTransitionStyle="crossDissolve" id="STv-jV-EYI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZA-xL-s7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="-422"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6bQ-BW-h8e"/>
+        <segue reference="UUw-W3-BjH"/>
+    </inferredMetricsTieBreakers>
+</document>
