@@ -84,13 +84,7 @@ class InterestsViewController: UIViewController {
         
         
         
-        
-        var darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
-        // 2
-        var blurView = UIVisualEffectView(effect: darkBlur)
-        blurView.frame = self.view.bounds
-        // 3
-        self.view.addSubview(blurView)
+     
         
         
         
@@ -134,7 +128,7 @@ SlideText.backgroundColor = UIColor .clearColor()
         //image.image = UIImage(named: "MusicYOCJ")
         imageView.setImageInputs([ImageSource(image: UIImage(named: "bball")!), ImageSource(image: UIImage(named: "fball")!),ImageSource(image: UIImage(named: "reading")!), ImageSource(image: UIImage(named: "Physics")!)])
         imageView.sizeToFit()
-        
+        SlideText.textColor = UIColor.whiteColor()
         SlideText.alignmentRectForFrame(self.view.frame)
         imageView.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMinY(self.view.frame) + 120 )
         self.view.addSubview(imageView)

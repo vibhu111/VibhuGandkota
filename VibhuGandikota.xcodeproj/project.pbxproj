@@ -60,6 +60,14 @@
 		D2E5C9B11CCE9FD500A20FD7 /* fball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B01CCE9FD500A20FD7 /* fball.png */; };
 		D2E5C9B31CCEA39400A20FD7 /* Physics.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B21CCEA39400A20FD7 /* Physics.png */; };
 		D2E5C9B51CCEB90100A20FD7 /* 1-f.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B41CCEB90100A20FD7 /* 1-f.png */; };
+		D2E5C9BC1CCED58800A20FD7 /* bpi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B61CCED58800A20FD7 /* bpi.png */; };
+		D2E5C9BD1CCED58800A20FD7 /* csi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B71CCED58800A20FD7 /* csi.png */; };
+		D2E5C9BE1CCED58800A20FD7 /* mni.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B81CCED58800A20FD7 /* mni.png */; };
+		D2E5C9BF1CCED58800A20FD7 /* cysi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9B91CCED58800A20FD7 /* cysi.png */; };
+		D2E5C9C11CCED58800A20FD7 /* ffi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9BB1CCED58800A20FD7 /* ffi.png */; };
+		D2E5C9C31CCED63C00A20FD7 /* interestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E5C9C21CCED63C00A20FD7 /* interestsTableViewCell.swift */; };
+		D2E5C9C51CCEDE4A00A20FD7 /* fi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9C41CCEDE4A00A20FD7 /* fi.png */; };
+		D2E5C9C71CCEE0CD00A20FD7 /* GetIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E5C9C61CCEE0CD00A20FD7 /* GetIcon.png */; };
 		F699CCF025427BBD15968CDB /* Pods_VibhuGandikota.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0708F6A0ACCD6CAAFBA5B2DE /* Pods_VibhuGandikota.framework */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +153,14 @@
 		D2E5C9B01CCE9FD500A20FD7 /* fball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fball.png; sourceTree = "<group>"; };
 		D2E5C9B21CCEA39400A20FD7 /* Physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Physics.png; sourceTree = "<group>"; };
 		D2E5C9B41CCEB90100A20FD7 /* 1-f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-f.png"; sourceTree = "<group>"; };
+		D2E5C9B61CCED58800A20FD7 /* bpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bpi.png; sourceTree = "<group>"; };
+		D2E5C9B71CCED58800A20FD7 /* csi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csi.png; sourceTree = "<group>"; };
+		D2E5C9B81CCED58800A20FD7 /* mni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mni.png; sourceTree = "<group>"; };
+		D2E5C9B91CCED58800A20FD7 /* cysi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cysi.png; sourceTree = "<group>"; };
+		D2E5C9BB1CCED58800A20FD7 /* ffi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ffi.png; sourceTree = "<group>"; };
+		D2E5C9C21CCED63C00A20FD7 /* interestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interestsTableViewCell.swift; sourceTree = "<group>"; };
+		D2E5C9C41CCEDE4A00A20FD7 /* fi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fi.png; sourceTree = "<group>"; };
+		D2E5C9C61CCEE0CD00A20FD7 /* GetIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetIcon.png; sourceTree = "<group>"; };
 		D781DDA583BBBAC9603FD410 /* Pods-VibhuGandikota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibhuGandikota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,14 +256,22 @@
 				D2AF97BC1CCC13D100D799DD /* ProgrammingController.swift */,
 				D25101FF1CCD9BB100FF08B1 /* TableViewCell.swift */,
 				D23AA3121CCC125400B78CE8 /* Main.storyboard */,
+				D2E5C9C21CCED63C00A20FD7 /* interestsTableViewCell.swift */,
 				D2E5C9A01CCE621600A20FD7 /* MySchoolViewController.swift */,
 				D2E5C9A21CCE622100A20FD7 /* FavSubjectsViewController.swift */,
 				D2AF97C21CCC321900D799DD /* MusicViewController.swift */,
 				D2AF97C41CCC322300D799DD /* AcademicsViewController.swift */,
 				D2AF97C61CCC324600D799DD /* InterestsViewController.swift */,
-				D2AF97C81CCC325000D799DD /* AboutMeViewController.swift */,
 				D2AF97CA1CCC325700D799DD /* MyAppsViewController.swift */,
+				D2AF97C81CCC325000D799DD /* AboutMeViewController.swift */,
 				D23AA2D71CCC11AB00B78CE8 /* Assets.xcassets */,
+				D2E5C9B61CCED58800A20FD7 /* bpi.png */,
+				D2E5C9C41CCEDE4A00A20FD7 /* fi.png */,
+				D2E5C9B71CCED58800A20FD7 /* csi.png */,
+				D2E5C9C61CCEE0CD00A20FD7 /* GetIcon.png */,
+				D2E5C9B81CCED58800A20FD7 /* mni.png */,
+				D2E5C9B91CCED58800A20FD7 /* cysi.png */,
+				D2E5C9BB1CCED58800A20FD7 /* ffi.png */,
 				D23AA3001CCC123100B78CE8 /* Home.png */,
 				D2E5C9A41CCE652400A20FD7 /* myschoolimg.png */,
 				D2E5C9B41CCEB90100A20FD7 /* 1-f.png */,
@@ -409,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E5C9C11CCED58800A20FD7 /* ffi.png in Resources */,
 				D2E5C98D1CCDA6F600A20FD7 /* ruby.png in Resources */,
 				D23AA30C1CCC123100B78CE8 /* My Apps.png in Resources */,
 				D2E5C9951CCDA7FD00A20FD7 /* scratchlang.png in Resources */,
@@ -417,6 +442,7 @@
 				D2E5C9931CCDA78200A20FD7 /* swiftobjc.png in Resources */,
 				D2E5C9A51CCE652400A20FD7 /* myschoolimg.png in Resources */,
 				D2E5C9B31CCEA39400A20FD7 /* Physics.png in Resources */,
+				D2E5C9BE1CCED58800A20FD7 /* mni.png in Resources */,
 				D2AF97C11CCC171700D799DD /* pens.png in Resources */,
 				D23AA30D1CCC123100B78CE8 /* Academics.png in Resources */,
 				D2E5C9911CCDA73E00A20FD7 /* javalang.png in Resources */,
@@ -428,15 +454,20 @@
 				D23AA30F1CCC123100B78CE8 /* hbutton.png in Resources */,
 				D23AA3131CCC125400B78CE8 /* Main.storyboard in Resources */,
 				D23AA2DB1CCC11AB00B78CE8 /* LaunchScreen.storyboard in Resources */,
+				D2E5C9C71CCEE0CD00A20FD7 /* GetIcon.png in Resources */,
 				D25101FC1CCD865F00FF08B1 /* kidsrubyimg.png in Resources */,
 				D23AA2D81CCC11AB00B78CE8 /* Assets.xcassets in Resources */,
+				D2E5C9BC1CCED58800A20FD7 /* bpi.png in Resources */,
 				D2E5C9991CCDB01100A20FD7 /* rubykids.png in Resources */,
 				D2E5C99F1CCE592D00A20FD7 /* subjects.png in Resources */,
+				D2E5C9BD1CCED58800A20FD7 /* csi.png in Resources */,
 				D2E5C99D1CCE52A600A20FD7 /* tgms.png in Resources */,
+				D2E5C9C51CCEDE4A00A20FD7 /* fi.png in Resources */,
 				D2E5C9AB1CCE722400A20FD7 /* explorascreenshot.png in Resources */,
 				D23AA30B1CCC123100B78CE8 /* Music.png in Resources */,
 				D23AA3091CCC123100B78CE8 /* About Me.png in Resources */,
 				D2E5C9AF1CCE9FCD00A20FD7 /* bball.png in Resources */,
+				D2E5C9BF1CCED58800A20FD7 /* cysi.png in Resources */,
 				D2E5C9A91CCE71E000A20FD7 /* certificatepic.png in Resources */,
 				D2E5C9A71CCE71A800A20FD7 /* math+sci.png in Resources */,
 				D2E5C9B51CCEB90100A20FD7 /* 1-f.png in Resources */,
@@ -520,6 +551,7 @@
 				D2E5C9A31CCE622100A20FD7 /* FavSubjectsViewController.swift in Sources */,
 				D25102001CCD9BB100FF08B1 /* TableViewCell.swift in Sources */,
 				D2E5C9A11CCE621600A20FD7 /* MySchoolViewController.swift in Sources */,
+				D2E5C9C31CCED63C00A20FD7 /* interestsTableViewCell.swift in Sources */,
 				D23AA2D11CCC11AB00B78CE8 /* AppDelegate.swift in Sources */,
 				D2AF97CB1CCC325700D799DD /* MyAppsViewController.swift in Sources */,
 				D2AF97C51CCC322300D799DD /* AcademicsViewController.swift in Sources */,

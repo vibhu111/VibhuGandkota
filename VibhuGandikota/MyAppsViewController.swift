@@ -8,13 +8,24 @@
 
 import UIKit
 
-class MyAppsViewController: UIViewController {
+class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var images = ["fi.png", "ffi.png", "bpi.png", "mni.png", "cysi.png", "csi.png"]
 
-  
+    var imagesss = [UIImage]()
+    
+    var appNames = ["Fexplosion","Flappy Friends","Bubble Poppers","Math Now","Can You Spell?","Color Swipes"]
+
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidAppear(animated: Bool) {
         setupHomeButton()
         
         setupScene()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        self.tableView.rowHeight = 150
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,20 +34,7 @@ class MyAppsViewController: UIViewController {
     }
     
     func setupScene(){
-        var image = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 600, 630))
-        var SlideText = UITextView()
-        SlideText.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 320, 300)
-        SlideText.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame) + 80.5 )
-        SlideText.font = UIFont(name: "Avenir Next", size: 20)
-        SlideText.text = "LOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSU  M LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOLLOREM IPSUM LOL"
-        SlideText.textAlignment = NSTextAlignment.Justified
-        self.view.addSubview(SlideText)
-        image.image = UIImage(named: "MusicYOCJ")
-        SlideText.alignmentRectForFrame(self.view.frame)
-        image.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame) - 168 )
-        self.view.addSubview(image)
-        image.alignmentRectForFrame(self.view.frame)
-        
+             
         
         
         
@@ -44,6 +42,55 @@ class MyAppsViewController: UIViewController {
         
         
     }
+    
+    
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    //@IBOutlet weak var imageView: UIImageView!
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return images.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! interestsTableViewCell
+        
+        //cell.textLabel?.text = swiftBlogs[row]
+        
+        cell.imageViewW.image = UIImage (named: images[indexPath.row])
+
+
+        
+        cell.AppName.text = appNames[indexPath.row]
+        cell.appCreater.text = "Vibhu Gandikota"
+        
+        return cell
+        
+    }
+    
+    // MARK:  UITableViewDelegate Methods
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let row = indexPath.row
+        // print(swiftBlogs[row])
+        //ADD URL TO APP STORE
+        /*var sites = ["https://scratch.mit.edu/","https://www.ruby-lang.org/en/","http://www.oracle.com/technetwork/topics/newtojava/overview/index.html","http://www.apple.com/swift/"]
+        
+        if let url = NSURL(string: sites[indexPath.row] ){
+            UIApplication.sharedApplication().openURL(url)
+      }
+ 
+ */
+ 
+    }
+    
+    
+    
+    
     
     
     
