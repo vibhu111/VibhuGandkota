@@ -43,6 +43,8 @@ class HomePage: UIViewController {
         setupHomeButton()
         setupHomeIcons()
         //self.view.backgroundColor = UIColor .blackColor()
+        
+
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "1-f.png")!)
         
 
@@ -63,7 +65,6 @@ class HomePage: UIViewController {
         
         
         //HOME BUTTON + BLUR
-        
         var darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
         // 2
         var blurView = UIVisualEffectView(effect: darkBlur)
@@ -71,6 +72,10 @@ class HomePage: UIViewController {
         // 3
         self.view.addSubview(blurView)
         
+        
+        
+        
+
         
         var homebuttonImage = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50))
         
