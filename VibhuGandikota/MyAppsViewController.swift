@@ -10,12 +10,14 @@ import UIKit
 
 class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var images = ["fi.png", "ffi.png", "bpi.png", "mni.png", "cysi.png", "csi.png"]
+    var images = ["Scip.png","fi.png", "ffi.png", "bpi.png", "mni.png", "cysi.png", "csi.png"]
 
     var imagesss = [UIImage]()
     
-    var appNames = ["Fexplosion","Flappy Friends","Bubble Poppers","Math Now","Can You Spell?","Color Swipes"]
+    var appNames = ["Smart Converter","Fexplosion","Flappy Friends","Bubble Poppers","Math Now","Can You Spell?","Color Swipes"]
 
+    
+    var catagories = ["Utilities","Games","Games","Games","Games","Games","Games"]
     @IBOutlet weak var tableView: UITableView!
     override func viewDidAppear(animated: Bool) {
         setupHomeButton()
@@ -26,7 +28,14 @@ class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.dataSource = self
         
         self.tableView.rowHeight = 150
+        
+        
     }
+    
+    /*override func viewDidLoad() {
+        //self.tableView.separatorColor = UIColor.clearColor()
+
+    }*/
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -65,11 +74,12 @@ class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         
         cell.AppName.text = appNames[indexPath.row]
-        cell.appCreater.text = "Vibhu Gandikota"
-        
+        cell.appCreater.text = catagories[indexPath.row]
+        xt = cell.AppName.text!
         return cell
         
     }
+    var xt = ""
     
     // MARK:  UITableViewDelegate Methods
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -78,24 +88,32 @@ class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let row = indexPath.row
         // print(swiftBlogs[row])
         //ADD URL TO APP STORE
-        /*var sites = ["https://scratch.mit.edu/","https://www.ruby-lang.org/en/","http://www.oracle.com/technetwork/topics/newtojava/overview/index.html","http://www.apple.com/swift/"]
+        var sites = ["https://itunes.apple.com/us/app/the-smart-converter/id846153156?ls=1&mt=8","https://itunes.apple.com/us/app/fexplosion/id860298357?ls=1&mt=8","https://itunes.apple.com/us/app/flappys-friends/id967617095?ls=1&mt=8","https://itunes.apple.com/us/app/bubble-poppers/id1034882004?ls=1&mt=8", "https://itunes.apple.com/us/app/math-now!/id978821728?ls=1&mt=8", "https://itunes.apple.com/us/app/can-you-spell-it/id1031939650?ls=1&mt=8", "https://itunes.apple.com/us/app/color-swipes/id1084858704?ls=1&mt=8"]
         
         if let url = NSURL(string: sites[indexPath.row] ){
             UIApplication.sharedApplication().openURL(url)
       }
  
- */
+         
+         
  
+        
+        //performSegueWithIdentifier("toDetails", sender: self)
+        
+     
+    
+    
+    
+    
     }
     
     
     
     
-    
-    
-    
-    
-    
+
+
+
+
     func setupHomeButton(){
         var homebuttonImage = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50))
         
@@ -115,6 +133,7 @@ class MyAppsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
+        
     
     func homeButtonTouched(){
         print("Functioning Preperly")

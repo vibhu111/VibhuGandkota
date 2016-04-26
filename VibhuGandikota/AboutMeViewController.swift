@@ -7,9 +7,12 @@
 //
 
 import UIKit
-
+import Spring
 class AboutMeViewController: UIViewController {
 
+    var text = ["Name","Age","Favorite Color", "Favorite Sports Team", "Favorite Language"]
+    var answers = ["Vibhu Gandikota", "14", "Orange", "Green Bay Packers", "Swift!!"]
+    
     override func viewDidAppear(animated: Bool) {
         // Do any additional setup after loading the view.
         
@@ -28,7 +31,28 @@ class AboutMeViewController: UIViewController {
     
     
     func setupScene(){
+      var Label1 = SpringLabel()
+        
+        Label1.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 300, 275)
+        Label1.center = CGPointMake(CGRectGetMinX(self.view.frame) + 65, CGRectGetMinY(self.view.frame) + 100 )
+        Label1.backgroundColor = UIColor.clearColor()
+        Label1.textColor = UIColor.blackColor()
+        Label1.font = UIFont(name: "Avenir Next", size: 25)
+        Label1.textAlignment = NSTextAlignment.Center
+        Label1.text = "Name:"
+        self.view.addSubview(Label1)
        
+        var Label1p = SpringLabel()
+        
+        Label1p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 300, 275)
+        Label1p.center = CGPointMake(CGRectGetMaxX(self.view.frame) - 65, CGRectGetMinY(self.view.frame) + 100 )
+        Label1p.backgroundColor = UIColor.clearColor()
+        Label1p.textColor = UIColor.blackColor()
+        Label1p.font = UIFont(name: "Avenir Next", size: 23)
+        Label1p.textAlignment = NSTextAlignment.Center
+        Label1p.text = "Vibhu Gandikota"
+        self.view.addSubview(Label1p)
+        
         
         
         
@@ -38,6 +62,27 @@ class AboutMeViewController: UIViewController {
     }
     
     
+    
+    /*
+     // Override to support conditional editing of the table view.
+     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+     // Return false if you do not want the specified item to be editable.
+     return true
+     }
+     */
+    
+    /*
+     // Override to support editing the table view.
+     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+     if editingStyle == .Delete {
+     // Delete the row from the data source
+     tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+     } else if editingStyle == .Insert {
+     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+     }
+     }
+     */
+
     
     
     func setupHomeButton(){

@@ -199,12 +199,12 @@ tick20()
             
         } else if imageView.pageControl.currentPage == 1{
             
-            label.text = "Because of my interest in science,"
+            label.text = "Because of My Interest in Science"
             
         } else if imageView.pageControl.currentPage == 2{
             
             
-            label.text = "WE WON!"
+            label.text = "The Work Paid Off"
             
             
         }

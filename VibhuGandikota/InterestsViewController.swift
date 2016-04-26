@@ -84,7 +84,12 @@ class InterestsViewController: UIViewController {
         
         
         
-     
+        var darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        // 2
+        var blurView = UIVisualEffectView(effect: darkBlur)
+        blurView.frame = self.view.bounds
+        // 3
+        self.view.addSubview(blurView)
         
         
         
@@ -164,7 +169,7 @@ SlideText.backgroundColor = UIColor .clearColor()
         
         if imageView.pageControl.currentPage == 0{
             
-            SlideText.text = "When I'm not programming, I try to take part in certain sports and athletic endeavors. I often enjoy playing basketball outside with my friends at the basketball courts."
+            SlideText.text = "When I'm not programming or playing music, I try to take part in certain sports and athletic endeavors. I often enjoy playing basketball outside with my friends at the basketball courts."
             self.view.addSubview(SlideText)
             
         } else if imageView.pageControl.currentPage == 1{
@@ -176,7 +181,7 @@ SlideText.backgroundColor = UIColor .clearColor()
             
         } else if imageView.pageControl.currentPage == 2{
            // var imm = "[Tap the image for more info...]"
-            var wiii = "Reading is a skill that everyone posses, and many choose not to use. I personally do not read too often, though I do enjoy reading a novel every once in awhile."
+            var wiii = "Reading is a skill that everyone posses, and many choose not to use. Though this is true, I personally do not read too often, but I do enjoy reading a novel every once in awhile."
             
             SlideText.text = wiii
             self.view.addSubview(SlideText)

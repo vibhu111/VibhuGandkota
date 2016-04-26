@@ -43,24 +43,16 @@ class HomePage: UIViewController {
         setupHomeButton()
         setupHomeIcons()
         //self.view.backgroundColor = UIColor .blackColor()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "1-f.png")!)
+        
 
     }
   
     
     
     func setupHomeButton(){
-        var homebuttonImage = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50))
         
         
-        homebuttonImage.image = UIImage(named: "Home.png")
-        self.view.addSubview(homebuttonImage)
-        homebuttonImage.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 22.5)
-
-        homeButton.frame = (frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 60, 60))
-        homeButton.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 22.5)
-self.view.addSubview(homeButton)
-        //homeButton.addTarget(self, action: "homeButtonTouched", forControlEvents: .TouchUpInside)
-
 
     }
     override func prefersStatusBarHidden() -> Bool {
@@ -68,6 +60,43 @@ self.view.addSubview(homeButton)
     }
     
     func setupHomeIcons(){
+        
+        
+        //HOME BUTTON + BLUR
+        
+        var darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        // 2
+        var blurView = UIVisualEffectView(effect: darkBlur)
+        blurView.frame = self.view.bounds
+        // 3
+        self.view.addSubview(blurView)
+        
+        
+        var homebuttonImage = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50))
+        
+        
+        homebuttonImage.image = UIImage(named: "Home.png")
+        self.view.addSubview(homebuttonImage)
+        homebuttonImage.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 22.5)
+        
+        homeButton.frame = (frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 60, 60))
+        homeButton.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 22.5)
+        self.view.addSubview(homeButton)
+        //homeButton.addTarget(self, action: "homeButtonTouched", forControlEvents: .TouchUpInside)
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     ProgrammingIcon.backgroundColor = UIColor (patternImage: UIImage(named: "Programming.png")!)
         MusicIcon.backgroundColor = UIColor (patternImage: UIImage(named: "Music.png")!)
         InterestsIcon.backgroundColor = UIColor (patternImage: UIImage(named: "Interests.png")!)
